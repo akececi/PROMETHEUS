@@ -1,0 +1,29 @@
+@relation ectopic_pregnancy
+
+@attribute YAS numeric
+@attribute SAT numeric
+@attribute RIA_VARLIGI {0,1}
+@attribute IVF_GEBELIK {0,1}
+@attribute PELVIK_AGRI {0,1}
+@attribute KANAMA {0,1}
+@attribute DEFANS {0,1}
+@attribute REBOUND {0,1}
+@attribute HASSASIYET {0,1}
+@attribute TUBAL_HEMATOM numeric
+@attribute EP_BOYUTU numeric
+@attribute GS {0,1}
+@attribute YS {0,1}
+@attribute CRL {0,1}
+@attribute FKA {0,1}
+@attribute SERBEST_SIVI_VARLIGI {0,1}
+@attribute HGB real
+@attribute WBC real
+@attribute PDW real
+@attribute PLT numeric
+@attribute NEU real
+@attribute LYM numeric
+@attribute NLR numeric
+@attribute BETA_1 numeric
+@attribute class {MTX,CERRAHI}
+
+@data45,17,1,1,0,0,1,0,1,0,345,1,1,1,1,1,334.0,56.0,23.0,12,34.0,7,4.9,12334,?
